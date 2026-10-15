@@ -34,7 +34,7 @@ inputs:
   AGENCY:
     description: "Which code.json schema to generate and validate against: 'cms' or 'neutral'."
     required: false
-    default: "cms"
+    default: "neutral"
 
 outputs:
   updated:
