@@ -22,7 +22,7 @@ jobs:
 
       - name: Update code.json
         id: generator
-        uses: DSACMS/automated-codejson-generator@main
+        uses: GSA-SHARE-IT/codejson-action@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: "main"
